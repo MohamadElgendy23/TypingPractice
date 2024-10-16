@@ -1,0 +1,19 @@
+header {
+    text-align: center;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#score-box {
+   width: 230px;
+   height: max-content;
+   border:1px solid black;
+   background-color:red;
+   border-radius:10px;
+   text-align: center;
+}

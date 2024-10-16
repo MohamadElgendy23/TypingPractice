@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>Typing Speed</h1>
+        <p>Test your speed and accuracy</p>
+    </header>
+    <div class="body">
+        <h2>Time Interval: <span id="time"></span></h2>
+        <div id="score-box">
+            <h3>Your score box</h3>
+            <p># of successful attempts: <span id="num-success"></span></p>
+            <p># of total attempts: <span id="num-total"></span></p>
+        </div>
+        <button id="toggle-practice-btn">Start Practice &#9654;&#65039;</button>
+        <div class="prompt">
+            <textarea id="prompt-word" name="prompt-word" rows="2" cols="20">
+            </textarea>
+            <div class="incorrect-letter">
+                <input type="text" id="user-input-word"/>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
